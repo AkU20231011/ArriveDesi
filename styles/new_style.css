@@ -19,6 +19,9 @@ p,
 a{
     font-family: 'Poppins', sans-serif;
 }
+h5{
+    font-size: 21px!important;
+}
 
 p,
 a {
@@ -32,6 +35,10 @@ a {
 }
 
 @media(max-width: 800px) {
+
+    h1{
+        font-size: 45px!important;
+    }
     /* sandhya's style  */
 
     
@@ -1258,4 +1265,116 @@ span.hero-sec-heading-span {
 }
 .blog_read_btn button:hover:after{
     color: #fff!important;
+}
+
+/* star rating  */
+.rating {
+    display: inline-block;
+    font-size: 0;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    float: right;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.rating label:before {
+    content: "\2605";
+    color: orange;
+}
+
+/* .rating input:checked ~ label:before {
+    content: "\2605";
+    color: orange;
+} */
+h6.host-location{
+    font-size: 14px;
+}
+h5.card-title {
+    margin-bottom: 0px;
+}
+.card-body-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-sec-bg{
+    background-image: url(../images/hostel-pg-img-3.jpg);
+    background-position: bottom;
+    background-blend-mode: multiply;
+    background-color: #00000094;
+}
+
+.t-color{
+    color: #f58020;
+}
+.hero-sec-head{
+    font-size: 60px;
+}
+.hero-sec input.form-control{
+    background-color: #ffffff00!important;
+}
+
+#cards-con-1 a.btn.btn-primary {
+    background: #f58020;
+    border: 1px solid #f58020;
+    width: 100%;
+}
+#cards-con-1 a.btn.btn-primary:hover {
+    background: transparent;
+    color: #f58020;
+}
+h6.host-location {
+    margin-bottom: 0!important;
+    line-height: 1.6em!important;
+}
+.hover-img-zoom:hover img.card-img-top {
+    transform: scale(1.1);
+    /* transition: transform 0.3s; */
+}
+img.card-img-top, #cards-con-1 a.btn.btn-primary{
+    transition: all 0.3s;
+}
+
+.host-address {
+    width: 95%;
+}
+.host-address::after {
+    content: "...";
+    display: inline-block;
+    color: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    position: absolute;
+}
+.host-address div {
+    width: 95%!important;
+    overflow: hidden;
+    display: inline-block;
+}
+h6.host-location {
+    width: 1000px;
+    margin-left: 28px;
+}
+.OpeningClosing{
+    font-size: 14px;
+}
+
+.host-address::before {
+    content: "";
+    background-image: url(../images/location.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: absolute;
+}
+.host-card-link-t {
+    font-size: 14px;
 }
