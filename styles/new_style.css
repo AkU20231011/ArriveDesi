@@ -1396,3 +1396,7 @@ h6.host-location {
 #contact-infor-card .card {
     border: 2px solid #f47c19;
 }
+
+.modal-content{
+    background: linear-gradient(180deg, #4365AD, #1F3668);
+}
