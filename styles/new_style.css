@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;0,800;0,900;1,900&display=swap');
 
-body,html{
+body,
+html {
     /* width:100%;
     height:100%; */
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
 }
 
@@ -16,16 +17,17 @@ h3,
 h4,
 h5,
 p,
-a{
+a {
     font-family: 'Poppins', sans-serif;
 }
-h5{
-    font-size: 21px!important;
+
+h5 {
+    font-size: 21px !important;
 }
 
 p,
 a {
-    font-size: 16px!important;
+    font-size: 16px !important;
 }
 
 @media(max-width: 1260px) {
@@ -36,127 +38,136 @@ a {
 
 @media(max-width: 800px) {
 
-    h1{
-        font-size: 45px!important;
+    h1 {
+        font-size: 45px !important;
     }
+
     /* sandhya's style  */
 
-    
 
-/* css for mission section */
-.mission{
-    width: 100%;
-    height:auto;
-    padding-bottom:2rem;
- }
- .mission > .mission-content{
-    position: relative!important;
-    width:80%!important;  
-    display: flex;
-    flex-direction: row; 
- }
- 
- .mission > .mission-content > .mission-left{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
- }
- .mission > .mission-content > .mission-left >h1{
-    font-size: 25px;
-    font-family:'poppins';
-    padding-top:10% ;
-    padding-left: 9%;
-    color: white;
- }
- br {
-    display: none;
- }
- .mission > .mission-content > .mission-left >div{
-    width: 19%;
-    height: 0.2rem;
-    position: relative;
-    left:10%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color:white;
- }
- .mission > .mission-content > .mission-left >p{
-    font-size: 16px;
-    font-family:'poppins';
-    padding-left: 9%;
-    color: white;
-    padding-right: 10px;
- }
- .mission > .mission-content > .mission-right{
-    background-color:#f58020;
-    
-    width: 50%;
-    display: flex;
-    flex-direction: column;
- }
- .mission > .mission-content > .mission-right >h1{
-    font-size: 25px;
-    font-family:'poppins';
-    padding-top:10% ;
-    padding-left: 9%;
-    color:white
- }
- 
- 
- .mission > .mission-content > .mission-right >div{
-    width: 18%;
-    height: 0.2rem;
-    position: relative;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color:white;
- }
- .mission > .mission-content > .mission-right >p{
-    font-size: 16px;
-    font-family:'poppins';
-    padding-left: 9%;
-    color: white;
-    padding-right: 10px;
- }
- 
+
+    /* css for mission section */
+    .mission {
+        width: 100%;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .mission>.mission-content {
+        position: relative !important;
+        width: 80% !important;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mission>.mission-content>.mission-left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mission>.mission-content>.mission-left>h1 {
+        font-size: 25px;
+        font-family: 'poppins';
+        padding-top: 10%;
+        padding-left: 9%;
+        color: white;
+    }
+
+    br {
+        display: none;
+    }
+
+    .mission>.mission-content>.mission-left>div {
+        width: 19%;
+        height: 0.2rem;
+        position: relative;
+        left: 10%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: white;
+    }
+
+    .mission>.mission-content>.mission-left>p {
+        font-size: 16px;
+        font-family: 'poppins';
+        padding-left: 9%;
+        color: white;
+        padding-right: 10px;
+    }
+
+    .mission>.mission-content>.mission-right {
+        background-color: #f58020;
+
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mission>.mission-content>.mission-right>h1 {
+        font-size: 25px;
+        font-family: 'poppins';
+        padding-top: 10%;
+        padding-left: 9%;
+        color: white
+    }
+
+
+    .mission>.mission-content>.mission-right>div {
+        width: 18%;
+        height: 0.2rem;
+        position: relative;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: white;
+    }
+
+    .mission>.mission-content>.mission-right>p {
+        font-size: 16px;
+        font-family: 'poppins';
+        padding-left: 9%;
+        color: white;
+        padding-right: 10px;
+    }
+
 
     /* css for exclusive section */
 
     .Exclusive {
         width: 100%;
         /* height:71vh;   */
-     }
-  
-     .Exclusive>.academic>.sub-exclusive>img {
-        height: 22rem!important;
-        margin-top: -20px!important;
-        padding-left: 30px!important;
-  
-     }
-  
-     .academic {
+    }
+
+    .Exclusive>.academic>.sub-exclusive>img {
+        height: 22rem !important;
+        margin-top: -20px !important;
+        padding-left: 30px !important;
+
+    }
+
+    .academic {
         display: flex;
-     }
-  
-     .Exclusive>.academic>.exclusive-right {
+    }
+
+    .Exclusive>.academic>.exclusive-right {
         position: relative;
-        left: 1%!important;
-        padding-right: 10px!important;
-     }
-  
-     .Exclusive>.academic>.exclusive-right>.exclusive-us {
-  
-        font-size: 25px!important;
-        line-height: 1em!important;
-        margin-bottom: 1rem!important;
-     }
-  
-     .Exclusive>.academic>.exclusive-right>.para {
+        left: 1% !important;
+        padding-right: 10px !important;
+    }
+
+    .Exclusive>.academic>.exclusive-right>.exclusive-us {
+
+        font-size: 25px !important;
+        line-height: 1em !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .Exclusive>.academic>.exclusive-right>.para {
         font-size: 16px;
-  
-  
-     }
-  
+
+
+    }
+
     /* snadhya's style end  */
     .videos-sec.sub_col {
         margin-right: auto !important;
@@ -192,9 +203,9 @@ a {
     }
 
     .right_boder {
-        border-right: none!important;
+        border-right: none !important;
         padding: 0px;
-        text-align: center!important;
+        text-align: center !important;
     }
 
     .footer-tab-spacing {
@@ -221,19 +232,19 @@ a {
 
     .header-row-col-1 {
         margin-bottom: 10px;
-        width: 100%!important;
+        width: 100% !important;
     }
 
     .hero-sec-heading-h1 {
-        font-size: 60px!important;
+        font-size: 60px !important;
     }
 
     .hero-sec-heading-span {
-        font-size: 30px!important;
+        font-size: 30px !important;
     }
 
     .hero-text h4 {
-        font-size: 24px!important;
+        font-size: 24px !important;
     }
 
     .header-height.bg-color {
@@ -263,90 +274,104 @@ a {
     img.img-3img {
         margin-bottom: 30px;
     }
+
+    .blog-img.overflow-hidden:after{
+        width: 40px!important;
+        height: 40px!important;
+        top: 22%!important;
+    }
 }
 
 @media(max-width: 500px) {
     /* Sandhya's style  */
 
-    
-/* * css for mission section */ 
-.mission{
-    width: 100%;
-    height: auto;
- }
- .mission > .mission-content{
-    position: relative;
-     display: flex; 
-     flex-direction: column!important;  
- }
- 
- .mission > .mission-content > .mission-left{
-    width: 100%!important;
-     display: flex; 
-     flex-direction: column; 
-   
-    /* height: 70vh; */
- }
- .mission > .mission-content > .mission-left >h1{
-    font-size: 25px;
-    font-family:'poppins';
-    padding-top:10% ;
-    padding-left: 9%;
-    color: white;
- }
- br {
-    display: none;
- }
- .mission > .mission-content > .mission-left >div{
-    width: 19%;
-    height: 0.2rem;
-    position: relative;
-    left:10%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color:white;
- }
- .mission > .mission-content > .mission-left >p{
-    font-size: 16px;
-    font-family:'poppins';
-    padding-left: 9%;
-    color: white;
-    padding-right: 10px;
- 
- }
- .mission > .mission-content > .mission-right{
-    background-color:#f58020;
-    
-    width: 100%!important;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center ; */
-    /* height: 70vh; */
- }
- .mission > .mission-content > .mission-right >h1{
-    font-size: 25px;
-    padding-top:10% ;
-    padding-left: 9%;
- }
- 
- .mission > .mission-content > .mission-right >div{
-    width: 18%;
-    height: 0.2rem;
-    position: relative;
-    left:9%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color:white;
- }
- .mission > .mission-content > .mission-right >p{
-    font-size: 16px;
-    font-family:'poppins';
-    padding-left: 9%;
-    color: white;
-    padding-right: 10px;
-    padding-bottom: 4rem;
- }
- 
+
+    /* * css for mission section */
+    .mission {
+        width: 100%;
+        height: auto;
+    }
+
+    .mission>.mission-content {
+        position: relative;
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .mission>.mission-content>.mission-left {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+
+        /* height: 70vh; */
+    }
+
+    .mission>.mission-content>.mission-left>h1 {
+        font-size: 25px;
+        font-family: 'poppins';
+        padding-top: 10%;
+        padding-left: 9%;
+        color: white;
+    }
+
+    br {
+        display: none;
+    }
+
+    .mission>.mission-content>.mission-left>div {
+        width: 19%;
+        height: 0.2rem;
+        position: relative;
+        left: 10%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: white;
+    }
+
+    .mission>.mission-content>.mission-left>p {
+        font-size: 16px;
+        font-family: 'poppins';
+        padding-left: 9%;
+        color: white;
+        padding-right: 10px;
+
+    }
+
+    .mission>.mission-content>.mission-right {
+        background-color: #f58020;
+
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center ; */
+        /* height: 70vh; */
+    }
+
+    .mission>.mission-content>.mission-right>h1 {
+        font-size: 25px;
+        padding-top: 10%;
+        padding-left: 9%;
+    }
+
+    .mission>.mission-content>.mission-right>div {
+        width: 18%;
+        height: 0.2rem;
+        position: relative;
+        left: 9%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: white;
+    }
+
+    .mission>.mission-content>.mission-right>p {
+        font-size: 16px;
+        font-family: 'poppins';
+        padding-left: 9%;
+        color: white;
+        padding-right: 10px;
+        padding-bottom: 4rem;
+    }
+
 
     .Exclusive {
         width: 100%;
@@ -361,7 +386,7 @@ a {
 
     .Exclusive>.academic>.sub-exclusive>img {
         /* height:20rem; */
-        padding-left: 10px!important;
+        padding-left: 10px !important;
     }
 
     .academic {
@@ -520,15 +545,15 @@ a {
     }
 
     .hero-sec-heading-h1 {
-        font-size: 46px!important;
+        font-size: 46px !important;
     }
 
     .hero-sec-heading-span {
-        font-size: 30px!important;
+        font-size: 30px !important;
     }
 
     .hero-text h4 {
-        font-size: 24px!important;
+        font-size: 24px !important;
     }
 
     .hero-sec .row {
@@ -560,6 +585,21 @@ a {
 
     .vid-slider-con .slick-arrow {
         padding: 6px 10px !important;
+    }
+
+    
+    .blog-img.overflow-hidden:after{
+        width: 40px!important;
+        height: 40px!important;
+        top: 29%!important;
+    }
+}
+
+@media (max-width: 380px) {
+    .blog-img.overflow-hidden:after{
+        width: 40px!important;
+        height: 40px!important;
+        top: 22%!important;
     }
 }
 
@@ -754,14 +794,16 @@ h2.blog_heading {
     padding: 15px 15px;
 }
 
-.form_btn, .form_btn.btn:hover {
+.form_btn,
+.form_btn.btn:hover {
     background-color: #f58020;
 }
 
 .sub_col {
-    width: 80%!important;
+    width: 80% !important;
     margin: auto;
 }
+
 .detail_1::before {
     content: "";
     background-image: url(../images/tel.png);
@@ -1172,22 +1214,24 @@ span.hero-sec-heading-span {
 
 
 /* css for mission section */
-.mission{
+.mission {
     width: 100%;
     height: auto;
- }
- .mission > .mission-content{
+}
+
+.mission>.mission-content {
     position: relative;
     /* margin-top:5rem; */
     /* top:23%; */
-    left:10%;
-    width:80%;  
+    left: 10%;
+    width: 80%;
     display: flex;
-    flex-direction: row; 
- 
+    flex-direction: row;
+
     /* background-color: pink; */
- }
- .mission > .mission-content > .mission-left{
+}
+
+.mission>.mission-content>.mission-left {
     /* background-color: #1f3668; */
     background: linear-gradient(180deg, #4365AD, #1F3668);
     width: 50%;
@@ -1196,74 +1240,82 @@ span.hero-sec-heading-span {
     padding-bottom: 4rem;
     /* align-items: center ; */
     /* height: 65vh; */
- }
- .mission > .mission-content > .mission-left >h1{
+}
+
+.mission>.mission-content>.mission-left>h1 {
     font-size: 25px;
-    font-family:'poppins';
-    padding-top:10% ;
+    font-family: 'poppins';
+    padding-top: 10%;
     padding-left: 13%;
     color: white;
- }
- .mission > .mission-content > .mission-left >div{
+}
+
+.mission>.mission-content>.mission-left>div {
     width: 19%;
     height: 0.2rem;
     position: relative;
-    left:13%;
+    left: 13%;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color:white;
- }
- .mission > .mission-content > .mission-left >p{
+    background-color: white;
+}
+
+.mission>.mission-content>.mission-left>p {
     font-size: 16px;
-    font-family:'poppins';
+    font-family: 'poppins';
     padding-left: 13%;
     color: white;
- }
- .mission > .mission-content > .mission-right{
-    background-color:#f58020;
-    
+}
+
+.mission>.mission-content>.mission-right {
+    background-color: #f58020;
+
     width: 50%;
     display: flex;
     flex-direction: column;
     /* align-items: center ; */
     /* height: 65vh; */
-   
- }
- .mission > .mission-content > .mission-right >h1{
+
+}
+
+.mission>.mission-content>.mission-right>h1 {
     font-size: 25px;
-    font-family:'poppins';
-    padding-top:10% ;
+    font-family: 'poppins';
+    padding-top: 10%;
     padding-left: 13%;
-    color:white
- }
- .mission > .mission-content > .mission-right >div{
+    color: white
+}
+
+.mission>.mission-content>.mission-right>div {
     width: 18%;
     height: 0.2rem;
     position: relative;
-    left:13%;
+    left: 13%;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color:white;
- }
- .mission > .mission-content > .mission-right >p{
+    background-color: white;
+}
+
+.mission>.mission-content>.mission-right>p {
     font-size: 16px;
-    font-family:'poppins';
+    font-family: 'poppins';
     padding-left: 13%;
     color: white;
- }
- 
- .footer-phone-mail-link{
+}
+
+.footer-phone-mail-link {
     display: flex;
     flex-direction: column;
     justify-content: center;
- }
-
- .blog_read_btn button:hover {
-    background-color: #f47c19;
-    color: #fff!important;
 }
-.blog_read_btn button:hover:after{
-    color: #fff!important;
+
+.blog_read_btn button:hover {
+    background-color: #f47c19;
+    color: #fff !important;
+}
+
+.blog_read_btn button:hover:after {
+    color: #fff !important;
 }
 
 /* star rating  */
@@ -1291,18 +1343,20 @@ span.hero-sec-heading-span {
     content: "\2605";
     color: orange;
 } */
-h6.host-location{
+h6.host-location {
     font-size: 14px;
 }
+
 h5.card-title {
     margin-bottom: 0px;
 }
+
 .card-body-text {
     display: flex;
     justify-content: space-between;
 }
 
-.hero-sec-bg{
+.hero-sec-bg {
     background-image: url(../images/hostel-pg-img-3.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
@@ -1311,7 +1365,7 @@ h5.card-title {
     background-color: #00000094;
 }
 
-.contact-hero-sec-bg{
+.contact-hero-sec-bg {
     background-image: url(../images/contact-us-hero-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -1320,16 +1374,18 @@ h5.card-title {
     background-color: #00000094;
 }
 
-.t-color{
+.t-color {
     color: #f58020;
 }
-.hero-sec-head{
+
+.hero-sec-head {
     font-size: 60px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.hero-sec input.form-control{
-    background-color: #ffffff00!important;
+
+.hero-sec input.form-control {
+    background-color: #ffffff00 !important;
 }
 
 #cards-con-1 a.btn.btn-primary {
@@ -1337,21 +1393,26 @@ h5.card-title {
     border: 1px solid #f58020;
     width: 100%;
 }
+
 #cards-con-1 a.btn.btn-primary:hover {
     background: transparent;
     color: #f58020;
 }
+
 h6.host-location {
-    margin-bottom: 0!important;
-    line-height: 1.6em!important;
+    margin-bottom: 0 !important;
+    line-height: 1.6em !important;
 }
-img.card-img-top, #cards-con-1 a.btn.btn-primary{
+
+img.card-img-top,
+#cards-con-1 a.btn.btn-primary {
     transition: all 0.3s;
 }
 
 .host-address {
     width: 95%;
 }
+
 .host-address::after {
     content: "...";
     display: inline-block;
@@ -1360,16 +1421,19 @@ img.card-img-top, #cards-con-1 a.btn.btn-primary{
     font-family: inherit;
     position: absolute;
 }
+
 .host-address div {
-    width: 95%!important;
+    width: 95% !important;
     overflow: hidden;
     display: inline-block;
 }
+
 h6.host-location {
     width: 1000px;
     margin-left: 28px;
 }
-.OpeningClosing{
+
+.OpeningClosing {
     font-size: 14px;
 }
 
@@ -1383,16 +1447,69 @@ h6.host-location {
     display: inline-block;
     position: absolute;
 }
+
 .host-card-link-t {
     font-size: 14px;
 }
+
 #contact-infor-card .row {
     margin-top: -100px;
 }
+
 #contact-infor-card .card {
     border: 2px solid #f47c19;
 }
 
-.modal-content{
+.modal-content {
     background: linear-gradient(180deg, #4365AD, #1F3668);
+}
+
+.accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #1F3668;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-blend-mode: multiply;
+    background-color: #ffffff94;
+    border-radius: 50%;
+}
+
+.blog-hover-img-zoom:hover img.blog-card-img-top {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.blog-img.overflow-hidden:after {
+    content: '';
+    background-image: url(../images/location\ .png);
+    /* background: red; */
+    position: absolute;
+    background-size: 100%;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    z-index: 9;
+    left: 80%;
+    top: 30%;
+}
+
+#blog-pg-blog-sec .blog_read_btn button {
+    color: #fff;
+    /* background: linear-gradient(180deg, #4365AD, #1F3668); */
+    background-color: #f58020;
+}
+
+#blog-pg-blog-sec .blog_read_btn button:after {
+    color: #fff;
+    /* color: #1F3668; */
+}
+
+.blog_title h4.card-title {
+    font-size: 20px;
 }
