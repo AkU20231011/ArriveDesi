@@ -1,3 +1,4 @@
+// brands slider
 jQuery(function($){
     $('.slider-con').slick({
     slidesToShow: 5,
@@ -26,6 +27,7 @@ jQuery(function($){
     ]
     });
     });
+// video slider
 jQuery(function($){
     $('.vid-slider-con').slick({
     slidesToShow: 3,
@@ -54,7 +56,35 @@ jQuery(function($){
     ]
     });
     });
-
+// accommodation images slider
+jQuery(function($){
+    $('.card-img-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    adaptiveHeight: true,
+    prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+    nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+    responsive: [{
+    breakpoint: 980,
+    settings: {
+    slidesToShow: 1,
+    }
+    },
+    {
+    breakpoint: 480,
+    settings: {
+    slidesToShow: 1,
+    }
+    }
+    ]
+    });
+    });
 
 
 // const elements = document.querySelectorAll('.slider_vid');

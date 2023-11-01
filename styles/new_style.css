@@ -1345,10 +1345,6 @@ h6.host-location {
     margin-bottom: 0!important;
     line-height: 1.6em!important;
 }
-.hover-img-zoom:hover img.card-img-top {
-    transform: scale(1.1);
-    /* transition: transform 0.3s; */
-}
 img.card-img-top, #cards-con-1 a.btn.btn-primary{
     transition: all 0.3s;
 }
