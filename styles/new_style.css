@@ -754,8 +754,7 @@ h2.blog_heading {
     padding: 15px 15px;
 }
 
-.form_btn,
-.form_btn.btn:hover {
+.form_btn, .form_btn.btn:hover {
     background-color: #f58020;
 }
 
@@ -1306,6 +1305,17 @@ h5.card-title {
 .hero-sec-bg{
     background-image: url(../images/hostel-pg-img-3.jpg);
     background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #00000094;
+}
+
+.contact-hero-sec-bg{
+    background-image: url(../images/contact-us-hero-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-blend-mode: multiply;
     background-color: #00000094;
 }
@@ -1315,6 +1325,8 @@ h5.card-title {
 }
 .hero-sec-head{
     font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .hero-sec input.form-control{
     background-color: #ffffff00!important;
@@ -1377,4 +1389,10 @@ h6.host-location {
 }
 .host-card-link-t {
     font-size: 14px;
+}
+#contact-infor-card .row {
+    margin-top: -100px;
+}
+#contact-infor-card .card {
+    border: 2px solid #f47c19;
 }
