@@ -275,10 +275,17 @@ a {
         margin-bottom: 30px;
     }
 
-    .blog-img.overflow-hidden:after{
-        width: 40px!important;
-        height: 40px!important;
-        top: 22%!important;
+    .blog-img.overflow-hidden:after {
+        width: 40px !important;
+        height: 40px !important;
+        top: 22% !important;
+    }
+
+    #faq-head-con {
+        border-radius: var(--bs-border-radius) !important;
+    }
+    #house-rules-con{
+        text-align: center;
     }
 }
 
@@ -587,19 +594,19 @@ a {
         padding: 6px 10px !important;
     }
 
-    
-    .blog-img.overflow-hidden:after{
-        width: 40px!important;
-        height: 40px!important;
-        top: 29%!important;
+
+    .blog-img.overflow-hidden:after {
+        width: 40px !important;
+        height: 40px !important;
+        top: 29% !important;
     }
 }
 
 @media (max-width: 380px) {
-    .blog-img.overflow-hidden:after{
-        width: 40px!important;
-        height: 40px!important;
-        top: 22%!important;
+    .blog-img.overflow-hidden:after {
+        width: 40px !important;
+        height: 40px !important;
+        top: 22% !important;
     }
 }
 
@@ -1512,4 +1519,29 @@ h6.host-location {
 
 .blog_title h4.card-title {
     font-size: 20px;
+}
+
+#airport-add::before{
+    content: "";
+    background-image: url(../images/plane-dashed.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    top: 2px;
+}
+.host-clg-distance::before{
+    content: "";
+    background-image: url(../images/distance.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    top: 2px;
 }

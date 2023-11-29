@@ -1,91 +1,148 @@
 // brands slider
-jQuery(function($){
+jQuery(function ($) {
     $('.slider-con').slick({
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    infinite:false,
-    autoplay: false,
-    autoplaySpeed: 700,
-    arrows: false,
-    dots: true,
-    pauseOnHover: true,
-    adaptiveHeight: true,
-    prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
-    nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
-    responsive: [{
-    breakpoint: 980,
-    settings: {
-    slidesToShow: 4.5,
-    }
-    },
-    {
-    breakpoint: 480,
-    settings: {
-    slidesToShow: 2,
-    }
-    }
-    ]
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        infinite: false,
+        autoplay: false,
+        autoplaySpeed: 700,
+        arrows: false,
+        dots: true,
+        pauseOnHover: true,
+        adaptiveHeight: true,
+        prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+        nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+        responsive: [{
+            breakpoint: 980,
+            settings: {
+                slidesToShow: 4.5,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 2,
+            }
+        }
+        ]
     });
-    });
+});
 // video slider
-jQuery(function($){
+jQuery(function ($) {
     $('.vid-slider-con').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    infinite:false,
-    autoplay: false,
-    autoplaySpeed: 700,
-    arrows: true,
-    dots: false,
-    pauseOnHover: true,
-    adaptiveHeight: true,
-    prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
-    nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
-    responsive: [{
-    breakpoint: 980,
-    settings: {
-    slidesToShow: 1,
-    }
-    },
-    {
-    breakpoint: 480,
-    settings: {
-    slidesToShow: 1,
-    }
-    }
-    ]
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: false,
+        autoplay: false,
+        autoplaySpeed: 700,
+        arrows: true,
+        dots: false,
+        pauseOnHover: true,
+        adaptiveHeight: true,
+        prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+        nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+        responsive: [{
+            breakpoint: 980,
+            settings: {
+                slidesToShow: 1,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+        ]
     });
-    });
+});
 // accommodation images slider
-jQuery(function($){
+jQuery(function ($) {
     $('.card-img-slider').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    arrows: false,
-    dots: false,
-    pauseOnHover: false,
-    adaptiveHeight: true,
-    prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
-    nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
-    responsive: [{
-    breakpoint: 980,
-    settings: {
-    slidesToShow: 1,
-    }
-    },
-    {
-    breakpoint: 480,
-    settings: {
-    slidesToShow: 1,
-    }
-    }
-    ]
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        adaptiveHeight: true,
+        prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+        nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+        responsive: [{
+            breakpoint: 980,
+            settings: {
+                slidesToShow: 1,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+        ]
     });
+});
+// single host images slider
+jQuery(function ($) {
+    $('.single-host-images').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        adaptiveHeight: true,
+        prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+        nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+        responsive: [{
+            breakpoint: 980,
+            settings: {
+                slidesToShow: 1,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+        ]
     });
-
+});
+// single host reviews
+jQuery(function ($) {
+    $('.single-host-reviews').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        adaptiveHeight: true,
+        prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+        nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+        responsive: [{
+            breakpoint: 980,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+        ]
+    });
+});
 
 // const elements = document.querySelectorAll('.slider_vid');
 
